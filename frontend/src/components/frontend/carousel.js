@@ -49,8 +49,8 @@ export default function Carousel() {
               fontSize: "16px",
             }}
           >
-            Welcome to MyMusic, where artists and hirers connect to create <br />
-            unforgettable musical experiences. Join us now and find the perfect <br />
+            Welcome to MyArtistry, where artists and hirers connect to create <br />
+            unforgettable Artistry experiences. Join us now and find the perfect <br />
             match for your next event.
           </p>
         </div>

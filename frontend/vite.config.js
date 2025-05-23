@@ -11,12 +11,16 @@ export default defineConfig({
       babel: {
         plugins: [['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }]],
       },
-      include: /\.(js|jsx)$/, // This line tells Vite to treat both .js and .jsx as JSX
+      include: /\.(js|jsx)$/,
     }),
   ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
+  },
+  server: {
+    port: 3000,
+    host: true, // or use '0.0.0.0'
   },
 });
